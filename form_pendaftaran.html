@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form Penda</title>
+    <meta name="description" content="Belajar PHP">
+    <meta name="keywords" content="233307010">
+    <meta name="author" content="Ergi Zenila Marta Sasmige">
+</head>
+<body>
+    <form action="proses_pendaftaran.php" target="_blank" method="post">
+        <label for="nim">Nim:</label>
+        <input type="text" id="nim" name="nim"><br/>
+        <label for="nama">Nama Lengkap:</label>
+        <input type="text" id="nama" name="nama"><br/>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br/>
+        <label for="ttl">Tempat, Tanggal Lahir:</label>
+        <input type="text" id="ttl" name="ttl">
+        <input type="date" id="ttl" name="ttl"><br/>
+        <label for="alamat">Alamat:</label>
+        <textarea id="alamat" name="alamat"></textarea><br/>
+        <label for="gender">Gender:</label>
+        <input type="radio" id="laki" value="laki" name="gender"> <label for="gender">Laki-laki</label>
+        <input type="radio" id="perempuan" value="perempuan" name="gender"> <label for="gender">Perempuan</label><br/>
+        <input type="submit" value="Kirim">
+    </form>
+</body>
+</html>
